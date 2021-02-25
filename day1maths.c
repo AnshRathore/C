@@ -6,7 +6,7 @@ int main()
 
     int mod;
 
-    mod=a%b;
+    mod=a*b;
 
     printf("my no=%d",mod);
 }
