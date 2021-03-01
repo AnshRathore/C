@@ -1,14 +1,16 @@
 #include<stdio.h>
+#include<math.h>
 
 int reverse(int a)
 {
-    int r;
-    while(a!=0)
-    {
-    r = r*10 + a%10;
-    a=a/10;
-    }
-    return r;
+    
+    int digit = (int) log10(a);
+    
+    // Base condition
+    if(a == 0)
+        return 0;
+    
+    return ((a%10 * pow(10, digit)) + reverse(a/10));
 }
 int main()
 {

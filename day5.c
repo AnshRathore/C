@@ -1,10 +1,9 @@
 #include<stdio.h>
-
-int main()
+main()
 
 {
 
-    int i=0, j=2;
+    /*int i=0, j=2;
 
     while(i,j<=10)  
     {
@@ -15,6 +14,7 @@ int main()
 
     printf("value of j=%d\n",j);
 
-    }
+    }*/
+    printf("graphic");
 }
 

@@ -2,13 +2,9 @@
 
 int digitsum(int a)
 {
-    int r=0;
-    while(a!=0)
-    {
-    r = r + a%10;
-    a=a/10;
-    }
-    return r;
+    if (a == 0) 
+    return 0; 
+    return (a % 10 + digitsum(a / 10)); 
 }
 int main()
 {
