@@ -4,9 +4,9 @@ int main()
 {
     int a=68 ,b=32;
 
-    int mod;
+    int mul;
 
-    mod=a*b;
+    mul=a*b;
 
-    printf("my no=%d",mod);
+    printf("my no=%d",mul);
 }
