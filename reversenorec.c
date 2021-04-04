@@ -2,11 +2,9 @@
 #include<math.h>
 
 int reverse(int a)
-{
-    
+{   
     int digit = (int) log10(a);
-    
-    // Base condition
+
     if(a == 0)
         return 0;
     
