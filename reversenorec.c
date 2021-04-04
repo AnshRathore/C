@@ -15,6 +15,5 @@ int main()
     int n;
     printf("pls enter a no. ");
     scanf("%d",&n);
-
     printf("reverse of no. %d is %d ",n,reverse(n));
 }
