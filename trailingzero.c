@@ -1,11 +1,11 @@
 #include<stdio.h>
 #include<math.h>
 
-long int fact(int n);
+double fact(int n);
 int main()
 {
     int n,d=0;
-    int b=1;
+    long int b;
     printf("pls enter a no. ");
     scanf("%d",&n);
 
@@ -16,9 +16,9 @@ int main()
         b=b/10;
         d=d+1;
     }
-    printf("trailing zero in %ld is %d ",fact(n),d);
+    printf("trailing zero in %lf is %d ",fact(n),d);
 }
-long int fact(int n)
+double fact(int n)
 {
     if (n>=1)
         return n*fact(n-1);
